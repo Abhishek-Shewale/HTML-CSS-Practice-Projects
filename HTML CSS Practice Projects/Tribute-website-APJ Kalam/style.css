@@ -1,0 +1,102 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply styles to the container div */
+.container {
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+}
+
+/* Center the content within a max-width container */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px; /* Add some padding for better readability */
+}
+
+/* Style the top section containing the image and name */
+.top-section {
+  margin-top: 50px; /* Reduce the top margin */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center the text */
+}
+
+.top-section h1 {
+  font-size: 36px; /* Slightly reduce the font size */
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+
+.top-section h4 {
+  font-size: 24px; /* Adjust font size */
+  color: #1d1e4c;
+  text-align: right; /* Align the text to the right */
+}
+
+/* Style the image container and image */
+.image-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px; /* Reduce the width */
+  height: 200px; /* Reduce the height */
+  margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+/* Style the about section */
+.about-section {
+  margin-top: 30px; /* Reduce the top margin */
+}
+
+.about-section h2 {
+  font-size: 36px; /* Adjust the font size */
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #1d1e4c;
+}
+
+.about-section p {
+  font-size: 18px; /* Adjust font size */
+  line-height: 1.5; /* Improve line spacing */
+  letter-spacing: 1.2px;
+  text-align: justify;
+  color: #333; /* Add text color */
+}
+
+/* Style the biography section */
+.biography_section {
+  margin: 30px 0; /* Reduce the margin */
+}
+
+.biography_section h3 {
+  font-size: 24px; /* Adjust font size */
+  margin-bottom: 20px;
+  color: #1d1e4c;
+}
+
+.biography_section ul {
+  list-style-type: disc; /* Use disc bullets for the list */
+  margin-left: 30px; /* Adjust the margin */
+}
+
+.biography_section li {
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 10px; /* Reduce the margin */
+}
+
+/* Style the footer */
+footer {
+  margin: 30px 0; /* Reduce the margin */
+  text-align: right; /* Align the text to the right */
+}
+
+footer p {
+  font-size: 14px; /* Adjust font size */
+  color: #333; /* Add text color */
+}
